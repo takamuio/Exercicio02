@@ -13,7 +13,7 @@ public class Exercicio03 {
         System.out.println("Digite um valor: ");
         int x = ler.nextInt();
         
-        int formula = x / x;
+        int formula = x % 2;
         
         if (formula == 0)
         {
